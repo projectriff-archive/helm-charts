@@ -5,6 +5,16 @@ create:
   crd: true
   faas: true
   rbac: false
+ingress:
+  enabled: true
+  httpGateway:
+    host: gateway.riff.example.com
+  service:
+    type: LoadBalancer
+    externalPort: 80
+  defaultBackend:
+    service:
+      externalPort: 8999
 enable:
   tracingDashboard: false
 rbac:
