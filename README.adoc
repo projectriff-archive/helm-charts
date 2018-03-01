@@ -1,3 +1,6 @@
+*The contents of this repository has moved to https://github.com/projectriff/riff/tree/master/helm-charts*
+
+
 = Helm Charts for Riff image:https://ci.projectriff.io/api/v1/teams/main/pipelines/riff/jobs/build-riff-chart/badge[Helm Charts Status, link=https://ci.projectriff.io/teams/main/pipelines/riff/jobs/build-riff-chart/builds/latest]
 
 == Add the riff repository to your helm configuration
